@@ -29,7 +29,7 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
 
 ```plaintext
-git clone https://github.com/saifeldeen911/fitness-tracker
+git clone https://github.com/yourusername/fitness-tracking-app.git
 cd fitness-tracking-app
 ```
 
@@ -80,6 +80,6 @@ npm start
 ## Project Structure
 
 - `src/App.js`: Main component with routing setup
-- `src/WorkoutForm.js`: Component for logging workouts
-- `src/ProgressDashboard.js`: Component for displaying workout history
-- `src/GoalsSetting.js`: Component for setting and updating fitness goals
+- `src/components/WorkoutForm.js`: Component for logging workouts
+- `src/components/ProgressDashboard.js`: Component for displaying workout history
+- `src/components/GoalsSetting.js`: Component for setting and updating fitness goals
