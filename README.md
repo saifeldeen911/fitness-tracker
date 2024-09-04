@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Fitness Tracking Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+The Fitness Tracking Application is a web-based tool that allows users to log their workouts, monitor their progress, and set fitness goals. Built with React, this application provides a user-friendly interface for tracking fitness activities and visualizing progress over time.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Log workouts with exercise type, duration, and calories burned
+- View workout history in a tabular format
+- Set and update weekly fitness goals
+- Responsive design for various device sizes
+- Data persistence using local storage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- React
+- React Router for navigation
+- Formik and Yup for form handling and validation
+- Tailwind CSS for styling
+- Local Storage API for data persistence
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To set up the project locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```plaintext
+git clone https://github.com/yourusername/fitness-tracking-app.git
+cd fitness-tracking-app
+```
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install the dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```plaintext
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Start the development server:
 
-## Learn More
+```plaintext
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Open your browser and visit `http://localhost:3000` to view the application.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Usage
 
-### Analyzing the Bundle Size
+1. **Logging a Workout**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Navigate to the "Log Workout" page
+2. Fill in the exercise type, duration, and calories burned
+3. Click "Log Workout" to save the entry
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+2. **Viewing Progress**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Go to the "Progress" page to see a table of all logged workouts
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+3. **Setting Goals**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Visit the "Goals" page
+2. Enter your weekly workout and calorie burn goals
+3. Click "Set Goals" to save your targets
+
+
+
+
+
+## Project Structure
+
+- `src/App.js`: Main component with routing setup
+- `src/WorkoutForm.js`: Component for logging workouts
+- `src/ProgressDashboard.js`: Component for displaying workout history
+- `src/GoalsSetting.js`: Component for setting and updating fitness goals
