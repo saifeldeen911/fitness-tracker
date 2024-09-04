@@ -29,7 +29,7 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
 
 ```plaintext
-git clone https://github.com/yourusername/fitness-tracking-app.git
+git clone https://github.com/saifeldeen911/fitness-tracker
 cd fitness-tracking-app
 ```
 
